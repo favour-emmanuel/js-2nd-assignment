@@ -35,3 +35,34 @@ button {
   margin-left: 10px;
   cursor: pointer;
 }
+
+section {
+  margin-top: 50px;
+  border-top: 2px solid rgba(165, 42, 42, 0.34);
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
+
+section input {
+  margin: 10px 0;
+}
+
+.love-btn {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: black;
+  color: crimson;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#result2 {
+  margin-top: 18px;
+}

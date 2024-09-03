@@ -25,3 +25,20 @@ function lifeInWeeks(age) {
     "result"
   ).innerText = `You have ${daysLeft} days, ${weeksLeft} weeks, and ${monthsLeft} months left.`;
 }
+
+// Love Calculator
+
+function calculateLove() {
+  let name1 = document.getElementById("name1").value;
+  let name2 = document.getElementById("name2").value;
+
+  if (name1 && name2) {
+    let loveScore = Math.floor(Math.random() * 101);
+    document.getElementById(
+      "result2"
+    ).innerText = `${name1} and ${name2} are ${loveScore}% match!!`;
+  } else {
+    document.getElementById("result2").innerText =
+      "Please enter both names to calculate the love score.";
+  }
+}
