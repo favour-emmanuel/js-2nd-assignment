@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: bisque;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+input {
+  width: 15rem;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
